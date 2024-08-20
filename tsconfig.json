@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@auth-service/*": ["../auth-service/src/*"]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src",
+    "../auth-service/src/**/*",
+
+  ],
+
+}
